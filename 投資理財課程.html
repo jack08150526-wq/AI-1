@@ -1,45 +1,860 @@
-<!doctype html>
-<html lang="zh-Hant">
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="彰化社區大學18週投資理財課程：AI工具、股票ETF、防詐與投資情緒管理，零基礎也能參與。">
-  <title>AI理財：投資不踩雷｜彰化社區大學</title>
-  <style>
-    :root{--ink:#17332f;--muted:#5d716c;--green:#164e45;--lime:#d9ec99;--cream:#f8f6ee;--orange:#f3ac65;--line:#dce5dc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.75;font-size:17px}a{color:inherit}button{font:inherit;cursor:pointer}header{position:sticky;top:0;z-index:10;background:#fcfaf3ef;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{font-weight:900;color:var(--green);font-size:18px;text-decoration:none}.navlinks{display:flex;align-items:center;gap:22px}.navlinks a{text-decoration:none;font-size:15px;font-weight:700}.pill,.btn{border:0;border-radius:100px;padding:12px 22px;font-weight:800;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.pill{background:var(--green);color:white}.btn.primary{background:var(--lime);color:var(--ink)}.btn.outline{border:1.5px solid #b7cec1;background:transparent}.hero{background:var(--green);color:#fff;overflow:hidden}.hero-inner{max-width:1180px;margin:auto;padding:92px 22px 100px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:50px}.eyebrow{display:inline-block;letter-spacing:2px;text-transform:uppercase;font-size:13px;font-weight:900;color:#c9e3a2}.hero h1{font-size:clamp(44px,6vw,78px);line-height:1.15;letter-spacing:-2px;margin:20px 0 24px}.hero h1 span{color:var(--lime)}.hero p{font-size:20px;color:#e0ede7;max-width:610px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin:32px 0}.hero-meta{display:flex;gap:28px;flex-wrap:wrap;border-top:1px solid #ffffff40;padding-top:26px;font-size:15px;color:#dce9e3}.hero-meta strong{display:block;color:white;font-size:23px}.illustration{position:relative;min-height:420px;display:grid;place-items:center}.circle{width:min(100%,425px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 32%,#77a99a,#356d60 55%,#255a4f);border:1px solid #a3c8b299;display:grid;place-items:center;box-shadow:0 30px 80px #082a2570}.chart-art{width:75%;height:auto}.float{position:absolute;background:#fff;color:var(--ink);padding:12px 20px;border-radius:16px;box-shadow:0 14px 42px #08241f40;font-weight:800;font-size:15px}.float.one{top:45px;right:0}.float.two{bottom:46px;left:0}.section{max-width:1180px;margin:auto;padding:85px 22px}.kicker{color:#47786c;font-size:13px;font-weight:900;letter-spacing:2px}.section h2{font-size:clamp(30px,4vw,46px);line-height:1.3;margin:10px 0 18px}.lead{max-width:750px;color:var(--muted);font-size:19px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.feature{background:white;border:1px solid var(--line);border-radius:22px;padding:30px;min-height:240px}.feature .number{font-size:14px;font-weight:900;color:#659382}.feature h3{font-size:23px;margin:17px 0 8px}.feature p{color:var(--muted);margin:0}.band{background:#e5ecdf}.outcomes{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start}.checklist{display:grid;gap:15px}.check{background:#fff9;border-radius:14px;padding:15px 20px;border:1px solid #cddbcc}.check:before{content:'✓';color:#237761;font-weight:900;margin-right:10px}.curriculum-head{display:flex;justify-content:space-between;gap:24px;align-items:end;flex-wrap:wrap}.tabs{display:flex;flex-wrap:wrap;gap:9px;margin:30px 0 24px}.tab{background:#fff;border:1px solid #cbd9d0;border-radius:100px;padding:9px 17px;font-weight:700;color:var(--green)}.tab[aria-pressed=true]{background:var(--green);color:white}.weeks{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.week{background:white;border:1px solid var(--line);border-radius:17px;padding:25px;display:flex;gap:20px}.week-num{min-width:67px;color:#477c6d;font-weight:900;font-size:14px}.week h3{margin:0 0 8px;font-size:20px}.week p{margin:0;color:var(--muted);font-size:15px}.week.special{background:#f1f5d9;border-color:#cbdca6}.week.final{background:#e1eee7;border-color:#b8d0c4}.week[hidden]{display:none}.columns{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.panel{padding:34px;background:white;border:1px solid var(--line);border-radius:22px}.panel h3{margin-top:0;font-size:25px}.panel p{color:var(--muted)}.cta{background:var(--green);color:white;text-align:center;border-radius:28px;padding:60px 28px}.cta h2{margin:10px 0;font-size:clamp(28px,4vw,43px)}.cta p{color:#dcece5;max-width:720px;margin:10px auto 28px}.cta .note{font-size:14px}.footer{max-width:1180px;padding:35px 22px;margin:auto;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:14px}.quiet{font-size:14px;color:var(--muted)}@media(max-width:850px){.hero-inner{grid-template-columns:1fr;padding-top:65px}.illustration{min-height:300px}.circle{max-width:330px}.feature-grid{grid-template-columns:1fr 1fr}.weeks,.outcomes,.columns{grid-template-columns:1fr}.navlinks a:not(.pill){display:none}}@media(max-width:560px){body{font-size:16px}.hero h1{font-size:44px}.hero p{font-size:18px}.illustration{min-height:280px}.float{font-size:12px;padding:9px 12px}.feature-grid{grid-template-columns:1fr}.section{padding:60px 18px}.week{padding:19px;gap:10px}.week-num{min-width:55px}.hero-meta{gap:16px}.footer{display:block}}@media print{header,.hero-buttons,.tabs,.print-hide{display:none!important}body{background:white;font-size:12px}.hero{color:#17332f;background:white}.hero-inner{display:block;padding:10px}.hero p,.hero-meta{color:#17332f}.hero h1{font-size:36px}.illustration{display:none}.section{padding:16px 0}.weeks{grid-template-columns:1fr 1fr}.week{break-inside:avoid;padding:10px}.week[hidden]{display:flex}.feature-grid{grid-template-columns:repeat(3,1fr)}.feature{padding:14px;min-height:0}.cta{display:none}}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安心富足：全齡理財防詐與心智煉金術｜彰化社區大學</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Google Fonts: Noto Sans TC 與 Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans TC"', '"Inter"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            forest: '#1B4332',
+                            emerald: '#2D6A4F',
+                            sage: '#D8F3DC',
+                            navy: '#1E293B',
+                            amber: '#D97706',
+                            gold: '#F59E0B',
+                            cream: '#FAF8F5',
+                            sand: '#F3EFE6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 全齡友善平滑捲動與基礎字體設定 */
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        /* 大字體模式（適合長輩與高齡學員舒適閱讀） */
+        html.large-font {
+            font-size: 19px;
+        }
+        body {
+            background-color: #FAF8F5;
+            color: #1E293B;
+        }
+        /* 列印樣式優化 */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background-color: #FFFFFF !important;
+                color: #000000 !important;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+                border: 1px solid #CBD5E1 !important;
+            }
+            .print-break-inside-avoid {
+                break-inside: avoid;
+            }
+        }
+    </style>
 </head>
-<body>
-<header><nav class="nav" aria-label="主要導覽"><a class="logo" href="#top">彰化社區大學 <span style="color:#8a9f93">/ 智慧理財</span></a><div class="navlinks"><a href="#features">課程特色</a><a href="#outline">18週課綱</a><a href="#details">課程說明</a><a class="pill" href="#join">了解課程 →</a></div></nav></header>
-<main id="top">
-<section class="hero"><div class="hero-inner"><div><div class="eyebrow">18週跨世代投資理財學習旅程</div><h1>你的錢，<br>值得<span>更聰明</span><br>的決定。</h1><p>AI理財：投資不踩雷<br>從股票、ETF 到 AI 工具與防詐，練習看懂資訊、穩住情緒，打造自己的理財判斷力。</p><div class="hero-buttons"><a class="btn primary" href="#outline">探索18週課程 ↗</a><a class="btn outline" style="color:white;border-color:#8eafa5" href="#features">看看學什麼</a></div><div class="hero-meta"><div><strong>18 週</strong>循序漸進</div><div><strong>20–80 歲</strong>跨齡友善</div><div><strong>0 基礎</strong>不需投資經驗</div></div></div><div class="illustration" aria-hidden="true"><div class="circle"><svg class="chart-art" viewBox="0 0 340 300" fill="none"><path d="M42 252H305M42 202H305M42 152H305M42 102H305M42 52H305" stroke="#b5d6c5" stroke-opacity=".3"/><path d="M45 236L98 192L145 207L196 135L240 151L297 71" stroke="#D9EC99" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="297" cy="71" r="13" fill="#F3AC65" stroke="#fff" stroke-width="4"/><rect x="58" y="150" width="20" height="42" rx="4" fill="#9ED4B4"/><rect x="111" y="120" width="20" height="60" rx="4" fill="#E8B985"/><rect x="164" y="92" width="20" height="50" rx="4" fill="#9ED4B4"/><rect x="218" y="64" width="20" height="70" rx="4" fill="#E8B985"/></svg></div><div class="float one">✦ AI 科技 × 理財</div><div class="float two">🛡 防詐 × 情緒管理</div></div></div></section>
-<section class="section" id="features"><div class="kicker">WHY THIS COURSE</div><h2>不只學投資，<br>更要學會獨立思考。</h2><p class="lead">用生活情境、手機操作與小組交流，把艱澀的金融知識變成能真正運用的能力。</p><div class="feature-grid"><article class="feature"><div class="number">01 / 生活理財</div><h3>從零開始也能懂</h3><p>認識收支、複利、股票、ETF與退休規劃，找到適合自己人生階段的方法。</p></article><article class="feature"><div class="number">02 / AI 資訊素養</div><h3>學會查證，不追明牌</h3><p>用AI整理財經資料，也學會檢查來源、日期、錯誤與詐騙訊息。</p></article><article class="feature"><div class="number">03 / 社會情緒學習</div><h3>行情波動，心不慌</h3><p>認識貪婪、恐懼與從眾心理，建立冷靜且負責任的決策習慣。</p></article><article class="feature"><div class="number">04 / 圖像式教學</div><h3>讓K線不再像天書</h3><p>以彩色圖表理解均線、成交量、MACD、KD、RSI與市場趨勢。</p></article><article class="feature"><div class="number">05 / 動手實作</div><h3>用虛擬資金練習</h3><p>練習建立觀察表、模擬投資、紀錄理由與檢討決策，不涉及實際交易。</p></article><article class="feature"><div class="number">06 / 跨齡共學</div><h3>交換不同世代的智慧</h3><p>讓青年、中年與熟齡學員分享經驗、尊重差異，一起完成理財藍圖。</p></article></div></section>
-<section class="band"><div class="section outcomes"><div><div class="kicker">WHAT YOU WILL TAKE HOME</div><h2>18週之後，<br>你將帶走什麼？</h2><p class="lead">學會做選擇，比猜對一支股票更有價值。</p></div><div class="checklist"><div class="check">一份自己的財務健康與理財目標表</div><div class="check">閱讀股票、ETF與財報的基礎能力</div><div class="check">查證AI答案與辨識金融詐騙的方法</div><div class="check">管理投資情緒的冷靜檢核表</div><div class="check">模擬投資紀錄與個人理財行動藍圖</div></div></div></section>
-<section class="section" id="outline"><div class="curriculum-head"><div><div class="kicker">18-WEEK LEARNING JOURNEY</div><h2>每一週，都讓自己更有底氣。</h2><p class="lead">循序學習、跨齡交流、動手實作。第9週依學校安排公民素養活動，第18週舉辦成果展。</p></div><button class="btn outline print-hide" onclick="window.print()">⎙ 列印完整課綱</button></div><div class="tabs" role="group" aria-label="課程階段篩選"><button class="tab" aria-pressed="true" data-filter="all">全部18週</button><button class="tab" aria-pressed="false" data-filter="foundation">基礎入門</button><button class="tab" aria-pressed="false" data-filter="literacy">AI與資訊素養</button><button class="tab" aria-pressed="false" data-filter="practice">應用與成果</button></div><div class="weeks" id="weeks"></div></section>
-<section class="band" id="details"><div class="section"><div class="kicker">COURSE INFORMATION</div><h2>不論年齡，一起把理財學好。</h2><div class="columns"><article class="panel"><h3>課程理念與目標</h3><p>以生活化教學結合AI科技、資訊素養與情緒管理，帶領學員認識投資理財、辨識風險及金融詐騙，培養獨立判斷能力，實現安心理財與終身學習。</p><p>從日常生活出發，學習股票、ETF、基金、資產配置與風險管理；透過模擬操作與案例交流，增進跨世代的尊重、溝通與社區金融素養。</p></article><article class="panel"><h3>誰適合參加？</h3><p>歡迎20至80歲對投資理財有興趣的民眾。無須金融背景或投資經驗；建議自備智慧型手機，具備基本上網能力。不熟悉數位工具者也可透過示範與個別協助學習。</p><p>不要求開立證券帳戶，所有投資演練均為虛擬模擬。</p></article><article class="panel"><h3>怎麼上課？</h3><p>搭配主題簡報、圖像與影片教學、講師示範、手機實作、案例討論、小組活動、情境遊戲與成果分享，讓抽象觀念變得看得見、做得到。</p></article><article class="panel"><h3>延續學習</h3><p>未來可銜接進階投資分析、AI理財應用與退休財務管理，逐步建立跨世代的理財學習社群，將正確觀念帶回家庭與社區。</p></article></div></div></section>
-<section class="section" id="join"><div class="cta"><div class="eyebrow">CHANGHUA COMMUNITY UNIVERSITY</div><h2>從今天開始，<br>為自己的理財能力加分。</h2><p>這是一門重視知識、實作與思考的18週課程。正式開課日期、費用及報名方式，請以彰化社區大學公告為準。</p><a class="btn primary" href="#outline">先看看每週學習內容 →</a><p class="note">純教育學習及模擬練習，不推薦特定投資商品，不提供個別投資建議。</p></div></section>
-</main><footer class="footer"><div><strong>AI理財：投資不踩雷</strong><div>彰化社區大學｜18週課程規劃展示</div></div><div>投資有風險，請依自身狀況理性評估。</div></footer>
-<script>
-const weeks=[
-[1,'理財新人生：你與金錢的距離','從生活消費與退休需求認識理財的重要性。透過理財性格小測驗，了解金錢觀、風險承受度與學習目標，交流不同世代的理財經驗。','foundation'],
-[2,'錢從哪裡來？打造財務安全網','認識收入、支出、儲蓄、負債、緊急預備金與複利效果。使用簡易記帳工具及AI協助規劃家庭預算，建立財務健康表。','foundation'],
-[3,'投資大觀園：股票、基金與ETF','介紹股票、債券、基金、ETF及定存的特色，理解報酬、風險、流動性與費用。透過工具配對遊戲比較不同人生階段的選擇。','foundation'],
-[4,'股票入門：原來投資沒那麼難','認識台灣股票市場、上市櫃公司、交易時間、股票代號、股價、成交量及交易成本。練習閱讀公開報價畫面。','foundation'],
-[5,'看懂好公司：財報其實很生活','認識營收、毛利率、每股盈餘（EPS）、本益比、股東權益報酬率（ROE）及股息，練習透過公開財報找出企業優勢與風險。','foundation'],
-[6,'股價會說話：K線與趨勢入門','學習K線、成交量、支撐與壓力，以及5日、10日、20日均線。運用圖表辨識上漲、下跌與盤整，理解技術分析的限制。','foundation'],
-[7,'技術指標：掌握市場的溫度','認識MACD、KD、RSI及乖離率（BIAS），比較市場動能與趨勢；搭配葛蘭碧均線法則，練習綜合判讀，避免依賴單一指標。','foundation'],
-[8,'AI投資小幫手：智慧工具實作','用AI整理財經新聞、解釋金融名詞、比較ETF資料及建立觀察表，練習查核資料日期、原始來源、錯誤資訊與個資保護。','literacy'],
-[9,'公民素養週','由彰化社區大學安排','literacy'],
-[10,'資訊真假辨：金融詐騙破解術','破解假投資群組、保證獲利、假名人推薦、深偽影音與釣魚連結；認識官方查證管道，分組挑戰真假投資訊息辨識。','literacy'],
-[11,'市場風向球：新聞背後的真相','認識利率、通膨、匯率、景氣循環與國際事件如何影響投資。練習區分事實、觀點與推測，培養批判思考與理性溝通。','literacy'],
-[12,'投資不衝動：情緒也是風險','探討貪婪、恐懼、從眾、懊悔及損失規避。以模擬行情進行情境決策，練習情緒辨識、自我管理與負責任的決定。','literacy'],
-[13,'理財防護罩：風險與資產配置','認識分散投資、資產配置、最大回撤、停損及再平衡概念，依個人需求及風險承受度設計模擬配置方案。','practice'],
-[14,'ETF與退休金：打造長期財務計畫','介紹ETF種類、費用、追蹤指數、配息與總報酬。以模擬案例比較定期定額與單筆投入，規劃退休現金流。','practice'],
-[15,'投資實戰遊戲：當自己的理財家','以虛擬資金模擬投資，運用基本面、技術面、資訊查核與風險管理選擇標的，記錄決策理由、持有比例與預設風險。','practice'],
-[16,'績效大健檢：賺錢不等於會投資','檢視模擬投資成果，比較報酬率、波動、最大回撤及決策品質；分析成功與失誤原因，以反思取代責備。','practice'],
-[17,'我的理財藍圖：跨世代智慧交流','製作個人理財行動計畫，包含財務目標、風險控管、資訊查核與情緒管理；小組交流並準備成果展。','practice'],
-[18,'成果展：我的智慧理財新生活','展示理財藍圖、模擬投資紀錄、AI應用成果與防詐作品，分享學習心得，展現跨世代金融、數位與情緒素養。','practice']
-];
-const target=document.getElementById('weeks');weeks.forEach(([n,title,body,category])=>{const card=document.createElement('article');card.className='week'+(n===9?' special':'')+(n===18?' final':'');card.dataset.category=category;card.innerHTML=`<div class="week-num">第 ${String(n).padStart(2,'0')} 週</div><div><h3></h3><p></p></div>`;card.querySelector('h3').textContent=title;card.querySelector('p').textContent=body;target.appendChild(card)});
-document.querySelectorAll('.tab').forEach(button=>button.addEventListener('click',()=>{const filter=button.dataset.filter;document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-pressed',String(x===button)));document.querySelectorAll('.week').forEach(x=>x.hidden=filter!=='all'&&x.dataset.category!==filter)}));
-</script>
-</body></html>
+<body class="antialiased selection:bg-brand-amber selection:text-white">
+
+    <!-- 頂部導覽與全齡無障礙工具列 -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-sm no-print">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+            <!-- 品牌識別 -->
+            <div class="flex items-center gap-2.5">
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-brand-forest text-white font-bold text-lg shadow-sm">
+                    彰
+                </span>
+                <div>
+                    <p class="text-xs font-semibold tracking-wider text-brand-emerald">彰化社區大學｜18週全齡共學課程</p>
+                    <p class="text-sm sm:text-base font-bold text-brand-navy truncate max-w-[200px] sm:max-w-none">安心富足：全齡理財防詐與心智煉金術</p>
+                </div>
+            </div>
+
+            <!-- 功能按鈕群：字體切換、複製文字稿、列印 -->
+            <div class="flex items-center gap-2 flex-wrap">
+                <!-- 字體大小切換 -->
+                <button id="fontToggleBtn" type="button" onclick="toggleFontSize()" aria-label="切換文字大小"
+                    class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-sand text-brand-forest hover:bg-brand-sage border border-stone-300 transition cursor-pointer">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                    </svg>
+                    <span id="fontToggleLabel">放大字體 (長輩友善)</span>
+                </button>
+
+                <!-- 一鍵複製文字稿 -->
+                <button type="button" onclick="copyFullText()"
+                    class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-amber text-white hover:bg-amber-700 shadow-sm transition cursor-pointer">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                    </svg>
+                    <span>一鍵複製文字稿</span>
+                </button>
+
+                <!-- 列印 / 另存 PDF -->
+                <button type="button" onclick="window.print()"
+                    class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-navy text-white hover:bg-slate-700 shadow-sm transition cursor-pointer">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                    </svg>
+                    <span class="hidden sm:inline">列印 / PDF</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero 主視覺區塊 -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-brand-forest via-[#234E3C] to-brand-navy text-white">
+        <!-- 裝飾性幾何背景 -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+            <div class="flex flex-wrap items-center gap-2 mb-4">
+                <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold bg-brand-amber text-white shadow-sm">
+                    彰化社區大學 精選全齡課程
+                </span>
+                <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-semibold bg-white/15 text-emerald-100 border border-white/20">
+                    20至80歲跨世代共學
+                </span>
+                <span class="px-3 py-1 rounded-full text-xs sm:text-sm font-semibold bg-white/15 text-amber-200 border border-white/20">
+                    零基礎入門・18週完整實作
+                </span>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-6">
+                安心富足：全齡理財防詐與心智煉金術
+            </h1>
+
+            <!-- 課程理念重點框 -->
+            <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5 sm:p-7 max-w-4xl shadow-lg">
+                <div class="flex items-center gap-2 text-amber-300 font-bold text-sm sm:text-base mb-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                    <span>課程理念</span>
+                </div>
+                <p class="text-lg sm:text-xl font-medium leading-relaxed text-white">
+                    結合資訊素養辨偽防詐，融入社會情緒覺察投資心魔，帶領全齡學員建立穩健財務計畫，達成安心富足人生。
+                </p>
+            </div>
+
+            <!-- 三大核心亮點標籤 -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 max-w-4xl">
+                <div class="flex items-center gap-3 bg-white/10 rounded-xl px-4 py-3 border border-white/15">
+                    <span class="flex-shrink-0 w-10 h-10 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold">01</span>
+                    <div>
+                        <p class="font-bold text-white text-sm sm:text-base">穩健理財實務</p>
+                        <p class="text-xs text-emerald-100">記帳健檢・ETF配置・安養信託</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 bg-white/10 rounded-xl px-4 py-3 border border-white/15">
+                    <span class="flex-shrink-0 w-10 h-10 rounded-lg bg-sky-500/20 text-sky-300 flex items-center justify-center font-bold">02</span>
+                    <div>
+                        <p class="font-bold text-white text-sm sm:text-base">資訊素養防詐</p>
+                        <p class="text-xs text-emerald-100">識別AI深偽・查核工具・資安防護</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 bg-white/10 rounded-xl px-4 py-3 border border-white/15">
+                    <span class="flex-shrink-0 w-10 h-10 rounded-lg bg-rose-500/20 text-rose-300 flex items-center justify-center font-bold">03</span>
+                    <div>
+                        <p class="font-bold text-white text-sm sm:text-base">社會情緒覺察</p>
+                        <p class="text-xs text-emerald-100">克服貪婪恐懼・跨世代家庭溝通</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要內容區 -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-10 space-y-10">
+
+        <!-- 課程核心資訊卡片網格 -->
+        <section aria-label="課程詳細資訊" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            
+            <!-- 1. 課程目標 -->
+            <div class="bg-white rounded-2xl p-6 sm:p-7 shadow-sm border border-stone-200 print-shadow-none print-break-inside-avoid">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-brand-sage text-brand-forest flex items-center justify-center">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-bold text-brand-forest">課程目標</h2>
+                </div>
+                <p class="text-slate-700 leading-relaxed text-base">
+                    因應高齡化與詐騙猖獗，建立正確理財觀。習得資產配置與防詐資訊判讀知識，培養記帳與數位工具操作技能；藉由情緒覺察修煉不貪不懼的投資心態，並與同儕共學交流，將防詐理財知能回饋家庭與彰化在地社區，共創安心互助的財務安全網。
+                </p>
+                <!-- 目標面向小標籤 -->
+                <div class="mt-4 pt-4 border-t border-stone-100 flex flex-wrap gap-2">
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">知識與理論</span>
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-amber-50 text-amber-800 border border-amber-200">數位與實作技能</span>
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-rose-50 text-rose-800 border border-rose-200">不貪不懼品德態度</span>
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-sky-50 text-sky-800 border border-sky-200">彰化社區共好連結</span>
+                </div>
+            </div>
+
+            <!-- 2. 條件限制（學員資格） -->
+            <div class="bg-white rounded-2xl p-6 sm:p-7 shadow-sm border border-stone-200 print-shadow-none print-break-inside-avoid">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-amber-100 text-brand-amber flex items-center justify-center">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-bold text-brand-forest">條件限制（學員資格）</h2>
+                </div>
+                <p class="text-slate-700 leading-relaxed text-base">
+                    歡迎20至80歲對理財、防詐與自我覺察有興趣的民眾報名，無須財經背景，屬於零基礎入門的初階全齡課程。學員僅需具備基本智慧型手機操作能力（如上網查詢、使用LINE），並保持開放交流與願意動手實作的學習熱忱即可。
+                </p>
+                <div class="mt-4 pt-4 border-t border-stone-100 flex flex-wrap gap-2">
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-stone-100 text-stone-700">年齡：20～80歲全齡</span>
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-stone-100 text-stone-700">程度：零基礎初階入門</span>
+                    <span class="px-2.5 py-1 rounded-md text-xs font-semibold bg-stone-100 text-stone-700">設備：智慧型手機與LINE基礎操作</span>
+                </div>
+            </div>
+
+            <!-- 3. 授課方式 -->
+            <div class="bg-white rounded-2xl p-6 sm:p-7 shadow-sm border border-stone-200 print-shadow-none print-break-inside-avoid">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-bold text-brand-forest">授課方式</h2>
+                </div>
+                <p class="text-slate-700 leading-relaxed text-base mb-4">
+                    主題探討或簡報介紹、案例討論與心得分享、團體互動及小組活動、影片欣賞及圖像教學、講師示範與實際操作、個別指導與反覆練習。
+                </p>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs font-semibold text-slate-700">
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">主題探討與簡報</div>
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">案例討論與分享</div>
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">團體互動與小組</div>
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">影片與圖像教學</div>
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">講師示範與實作</div>
+                    <div class="bg-brand-cream px-3 py-2 rounded-lg border border-stone-200 text-center">個別指導與練習</div>
+                </div>
+            </div>
+
+            <!-- 4. 發展計畫 & 教學設計亮點 -->
+            <div class="space-y-6">
+                <!-- 發展計畫 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 print-shadow-none print-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-9 h-9 rounded-xl bg-emerald-100 text-brand-emerald flex items-center justify-center">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold text-brand-forest">發展計畫</h2>
+                    </div>
+                    <p class="text-slate-700 leading-relaxed text-base">
+                        未來可進階開設ETF與退休現金流實戰，並結合彰化社區防詐宣導志工培力，串聯跨世代共學社群，擴大公益影響力。
+                    </p>
+                </div>
+
+                <!-- 教學設計亮點 -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-6 shadow-sm border border-amber-200 print-shadow-none print-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-9 h-9 rounded-xl bg-brand-amber text-white flex items-center justify-center">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold text-amber-900">教學設計亮點示範</h2>
+                    </div>
+                    <p class="text-slate-800 leading-relaxed text-base font-medium">
+                        第4週〈真假訊息照妖鏡〉：先播放詐騙影片引發討論，接著小組實測查核工具，最後講師帶練防詐口訣與分享。
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 18週完整課程大綱區塊 -->
+        <section id="syllabus-section" class="bg-white rounded-3xl p-5 sm:p-8 shadow-sm border border-stone-200 print-shadow-none">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-stone-200">
+                <div>
+                    <span class="text-xs font-bold tracking-wider uppercase text-brand-amber">18-WEEK CURRICULUM</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-brand-forest mt-1">18週完整課程大綱</h2>
+                    <p class="text-sm text-slate-600 mt-1">融合「理財實務」、「資訊素養」與「社會情緒學習」的循序漸進學習地圖</p>
+                </div>
+
+                <!-- 檢視模式切換（表格 / 卡片） -->
+                <div class="flex items-center gap-2 self-start md:self-auto no-print">
+                    <span class="text-xs font-semibold text-slate-500 mr-1">檢視模式：</span>
+                    <button id="viewTableBtn" type="button" onclick="setViewMode('table')"
+                        class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-forest text-white shadow-sm transition cursor-pointer">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                        <span>表格模式</span>
+                    </button>
+                    <button id="viewCardBtn" type="button" onclick="setViewMode('card')"
+                        class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-stone-100 text-slate-700 hover:bg-stone-200 transition cursor-pointer">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                        </svg>
+                        <span>卡片模式</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 篩選與搜尋工具列 -->
+            <div class="my-6 flex flex-col lg:flex-row lg:items-center justify-between gap-4 no-print">
+                <!-- 主題分類標籤篩選 -->
+                <div class="flex flex-wrap items-center gap-2" role="group" aria-label="課程主題篩選">
+                    <button type="button" onclick="filterCategory('all')" data-cat="all"
+                        class="filter-btn active px-4 py-2 rounded-xl text-sm font-bold bg-brand-forest text-white shadow-sm transition cursor-pointer">
+                        全部 (18週)
+                    </button>
+                    <button type="button" onclick="filterCategory('finance')" data-cat="finance"
+                        class="filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200 transition cursor-pointer">
+                        理財實務與配置
+                    </button>
+                    <button type="button" onclick="filterCategory('literacy')" data-cat="literacy"
+                        class="filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-sky-50 text-sky-800 hover:bg-sky-100 border border-sky-200 transition cursor-pointer">
+                        資訊素養與防詐
+                    </button>
+                    <button type="button" onclick="filterCategory('sel')" data-cat="sel"
+                        class="filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-rose-50 text-rose-800 hover:bg-rose-100 border border-rose-200 transition cursor-pointer">
+                        社會情緒學習
+                    </button>
+                    <button type="button" onclick="filterCategory('community')" data-cat="community"
+                        class="filter-btn px-4 py-2 rounded-xl text-sm font-bold bg-amber-50 text-amber-800 hover:bg-amber-100 border border-amber-200 transition cursor-pointer">
+                        公民週與成果展
+                    </button>
+                </div>
+
+                <!-- 關鍵字搜尋框 -->
+                <div class="relative w-full lg:w-72">
+                    <input id="searchInput" type="text" oninput="handleSearch()" placeholder="搜尋週次、ETF、防詐、信託..."
+                        class="w-full pl-10 pr-9 py-2.5 rounded-xl border border-stone-300 bg-brand-cream focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-amber text-sm text-slate-800 placeholder-slate-400">
+                    <svg class="w-5 h-5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <button id="clearSearchBtn" type="button" onclick="clearSearch()" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer" aria-label="清除搜尋">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 篩選結果提示 -->
+            <div id="filterStatus" class="mb-4 text-sm text-slate-600 font-medium hidden no-print"></div>
+
+            <!-- 表格檢視容器 -->
+            <div id="tableViewContainer" class="overflow-x-auto rounded-2xl border border-stone-200">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-brand-forest text-white text-sm sm:text-base">
+                            <th class="py-4 px-4 sm:px-6 font-bold whitespace-nowrap w-24 sm:w-28">週</th>
+                            <th class="py-4 px-4 sm:px-6 font-bold w-1/3">主題</th>
+                            <th class="py-4 px-4 sm:px-6 font-bold">內容</th>
+                        </tr>
+                    </thead>
+                    <tbody id="syllabusTableBody" class="divide-y divide-stone-200 text-slate-800">
+                        <!-- 由 JavaScript 動態渲染 18 週資料 -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 卡片檢視容器 -->
+            <div id="cardViewContainer" class="hidden grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 由 JavaScript 動態渲染 18 週卡片 -->
+            </div>
+
+            <!-- 查無資料提示 -->
+            <div id="emptyState" class="hidden py-12 text-center bg-brand-cream rounded-2xl border border-dashed border-stone-300">
+                <p class="text-lg font-bold text-slate-700 mb-1">找不到符合條件的課程週次</p>
+                <p class="text-sm text-slate-500 mb-4">請嘗試更換篩選類別或清除搜尋關鍵字</p>
+                <button type="button" onclick="resetFilters()" class="px-4 py-2 rounded-xl bg-brand-forest text-white text-sm font-bold hover:bg-brand-emerald transition cursor-pointer">
+                    顯示全部 18 週課程
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 頁尾資訊 -->
+    <footer class="bg-brand-navy text-slate-300 py-8 mt-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+            <div class="text-center sm:text-left">
+                <p class="font-bold text-white text-base">彰化社區大學｜全齡終身學習課程規劃</p>
+                <p class="text-slate-400 mt-1">課程名稱：安心富足：全齡理財防詐與心智煉金術（18週）</p>
+            </div>
+            <div class="flex items-center gap-3 no-print">
+                <button type="button" onclick="copyFullText()" class="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition cursor-pointer">
+                    複製完整報名簡章文字
+                </button>
+                <a href="#" class="px-4 py-2 rounded-xl bg-brand-amber hover:bg-amber-600 text-white font-semibold transition">
+                    回到頂部 ↑
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 浮動通知 Toast (取代 alert) -->
+    <div id="toastNotification" role="status" aria-live="polite"
+        class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 bg-brand-forest text-white px-5 py-3.5 rounded-2xl shadow-xl border border-emerald-700 flex items-center gap-3 max-w-sm">
+        <span class="w-7 h-7 rounded-full bg-emerald-500/30 text-emerald-200 flex items-center justify-center flex-shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+            </svg>
+        </span>
+        <p id="toastMessage" class="text-sm font-bold">已複製完整課程文字稿！</p>
+    </div>
+
+    <!-- 隱藏的純文字區，用於精準複製完整課程資料 -->
+    <textarea id="rawCourseText" class="sr-only" aria-hidden="true" readonly>課程名稱：安心富足：全齡理財防詐與心智煉金術
+課程理念：結合資訊素養辨偽防詐，融入社會情緒覺察投資心魔，帶領全齡學員建立穩健財務計畫，達成安心富足人生。
+課程目標：因應高齡化與詐騙猖獗，建立正確理財觀。習得資產配置與防詐資訊判讀知識，培養記帳與數位工具操作技能；藉由情緒覺察修煉不貪不懼的投資心態，並與同儕共學交流，將防詐理財知能回饋家庭與彰化在地社區，共創安心互助的財務安全網。
+條件限制：歡迎20至80歲對理財、防詐與自我覺察有興趣的民眾報名，無須財經背景，屬於零基礎入門的初階全齡課程。學員僅需具備基本智慧型手機操作能力（如上網查詢、使用LINE），並保持開放交流與願意動手實作的學習熱忱即可。
+授課方式：主題探討或簡報介紹、案例討論與心得分享、團體互動及小組活動、影片欣賞及圖像教學、講師示範與實際操作、個別指導與反覆練習。
+發展計畫：未來可進階開設ETF與退休現金流實戰，並結合彰化社區防詐宣導志工培力，串聯跨世代共學社群，擴大公益影響力。
+教學設計：第4週〈真假訊息照妖鏡〉：先播放詐騙影片引發討論，接著小組實測查核工具，最後講師帶練防詐口訣與分享。
+
+課程大綱：
+第1週｜破冰啟航：我的金錢故事與情緒溫度計｜認識跨世代同學，透過牌卡探索個人金錢觀與消費情緒，建立安心共學的班級公約與理財願景。
+第2週｜財務健檢：看懂收支與資產負債的真相｜講師示範簡易手機記帳與家庭資產盤點，學員實際操作並個別指導，找出隱形漏財黑洞。
+第3週｜緊急預備金與風險防護網規劃｜學習計算安全預備金水位，認識基礎保險與醫療長照風險轉移概念，為全齡人生築起第一道防線。
+第4週｜資訊素養（一）：真假投資訊息照妖鏡｜剖析飆股群組、假冒名人與AI深偽詐騙手法，實際演練事實查核工具與165防詐網判讀技巧。
+第5週｜社會情緒（一）：擊退貪婪與恐懼的心魔｜認識損失規避與羊群效應等行為財務學偏誤，練習在市場波動時覺察焦慮、穩定決策情緒。
+第6週｜複利魔法與通貨膨脹的賽跑｜透過圖像教學與案例試算，理解時間價值與通膨對退休金的侵蝕，建立長期穩健投資的核心觀念。
+第7週｜認識投資工具箱：定存、債券與股票｜用白話拆解常見金融商品特性與風險報酬比，小組討論不同年齡層與人生階段的適合工具。
+第8週｜懶人投資術：ETF與指數化投資入門｜深入淺出介紹市值型與高股息ETF運作原理，學習查詢公開資訊觀測站與基金月報的正確管道。
+第9週｜公民素養週｜由彰化社區大學安排
+第10週｜資訊素養（二）：財經新聞與網紅話術解碼｜學習區分置入性行銷與客觀財報數據，培養獨立思考能力，不被聳動標題與明牌牽著鼻子走。
+第11週｜打造專屬資產配置：股債平衡實戰｜根據20至80歲不同風險承受度，分組演練核心與衛星資產配置比例，落實「雞蛋不放同籃」原則。
+第12週｜定期定額與再平衡的紀律修煉｜模擬歷史股災情境，體會定期定額微笑曲線威力，學習設定停利不停損與定期再平衡的操作紀律。
+第13週｜退休現金流與高齡安養信託規劃｜探討勞保勞退與自備退休金缺口，認識安養信託與意定監護制度，守護熟齡資產不被挪用。
+第14週｜社會情緒（二）：家庭金錢溝通與世代共融｜透過角色扮演練習與伴侶、子女或長輩談錢傷感情的難題，化解世代財務觀念衝突，凝聚家庭共識。
+第15週｜數位理財工具與資安防護實作｜講師示範行動銀行安全設定、雙重驗證與定期定額下單介面，學員反覆練習並確保數位操作安全。
+第16週｜投資心理韌性：遇見股災時的冷靜錦囊｜設計專屬個人的「投資情緒急救包」與檢核清單，在市場大跌時依循理性步驟行動，避免恐慌殺低。
+第17週｜成果展總彩排：我的全齡富足藍圖｜彙整學期所學，完成個人財務安全與情緒管理計畫書，小組互評給予正向回饋與上台發表準備。
+第18週｜期末成果展：世代共學理財防詐嘉年華｜學員上台分享學習蛻變與防詐心法，並設攤展示自製防詐圖卡與理財藍圖，與社區民眾交流同樂。</textarea>
+
+    <script>
+        // 18週完整課程大綱資料（嚴格保留一字不漏的原始文字）
+        const syllabusData = [
+            {
+                week: "第1週",
+                topic: "破冰啟航：我的金錢故事與情緒溫度計",
+                content: "認識跨世代同學，透過牌卡探索個人金錢觀與消費情緒，建立安心共學的班級公約與理財願景。",
+                tags: ["sel", "community"],
+                badge: "社會情緒・破冰",
+                badgeClass: "bg-rose-100 text-rose-800"
+            },
+            {
+                week: "第2週",
+                topic: "財務健檢：看懂收支與資產負債的真相",
+                content: "講師示範簡易手機記帳與家庭資產盤點，學員實際操作並個別指導，找出隱形漏財黑洞。",
+                tags: ["finance"],
+                badge: "理財實務",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第3週",
+                topic: "緊急預備金與風險防護網規劃",
+                content: "學習計算安全預備金水位，認識基礎保險與醫療長照風險轉移概念，為全齡人生築起第一道防線。",
+                tags: ["finance"],
+                badge: "理財實務",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第4週",
+                topic: "資訊素養（一）：真假投資訊息照妖鏡",
+                content: "剖析飆股群組、假冒名人與AI深偽詐騙手法，實際演練事實查核工具與165防詐網判讀技巧。",
+                tags: ["literacy"],
+                badge: "資訊素養・防詐",
+                badgeClass: "bg-sky-100 text-sky-800",
+                highlight: true
+            },
+            {
+                week: "第5週",
+                topic: "社會情緒（一）：擊退貪婪與恐懼的心魔",
+                content: "認識損失規避與羊群效應等行為財務學偏誤，練習在市場波動時覺察焦慮、穩定決策情緒。",
+                tags: ["sel"],
+                badge: "社會情緒",
+                badgeClass: "bg-rose-100 text-rose-800"
+            },
+            {
+                week: "第6週",
+                topic: "複利魔法與通貨膨脹的賽跑",
+                content: "透過圖像教學與案例試算，理解時間價值與通膨對退休金的侵蝕，建立長期穩健投資的核心觀念。",
+                tags: ["finance"],
+                badge: "理財實務",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第7週",
+                topic: "認識投資工具箱：定存、債券與股票",
+                content: "用白話拆解常見金融商品特性與風險報酬比，小組討論不同年齡層與人生階段的適合工具。",
+                tags: ["finance"],
+                badge: "理財實務",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第8週",
+                topic: "懶人投資術：ETF與指數化投資入門",
+                content: "深入淺出介紹市值型與高股息ETF運作原理，學習查詢公開資訊觀測站與基金月報的正確管道。",
+                tags: ["finance", "literacy"],
+                badge: "理財實務・資訊查核",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第9週",
+                topic: "公民素養週",
+                content: "由彰化社區大學安排",
+                tags: ["community"],
+                badge: "社大公民週",
+                badgeClass: "bg-amber-100 text-amber-800",
+                isCivicWeek: true
+            },
+            {
+                week: "第10週",
+                topic: "資訊素養（二）：財經新聞與網紅話術解碼",
+                content: "學習區分置入性行銷與客觀財報數據，培養獨立思考能力，不被聳動標題與明牌牽著鼻子走。",
+                tags: ["literacy"],
+                badge: "資訊素養",
+                badgeClass: "bg-sky-100 text-sky-800"
+            },
+            {
+                week: "第11週",
+                topic: "打造專屬資產配置：股債平衡實戰",
+                content: "根據20至80歲不同風險承受度，分組演練核心與衛星資產配置比例，落實「雞蛋不放同籃」原則。",
+                tags: ["finance"],
+                badge: "理財實務",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第12週",
+                topic: "定期定額與再平衡的紀律修煉",
+                content: "模擬歷史股災情境，體會定期定額微笑曲線威力，學習設定停利不停損與定期再平衡的操作紀律。",
+                tags: ["finance", "sel"],
+                badge: "理財實務・紀律",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第13週",
+                topic: "退休現金流與高齡安養信託規劃",
+                content: "探討勞保勞退與自備退休金缺口，認識安養信託與意定監護制度，守護熟齡資產不被挪用。",
+                tags: ["finance"],
+                badge: "全齡退休守護",
+                badgeClass: "bg-emerald-100 text-emerald-800"
+            },
+            {
+                week: "第14週",
+                topic: "社會情緒（二）：家庭金錢溝通與世代共融",
+                content: "透過角色扮演練習與伴侶、子女或長輩談錢傷感情的難題，化解世代財務觀念衝突，凝聚家庭共識。",
+                tags: ["sel"],
+                badge: "社會情緒・溝通",
+                badgeClass: "bg-rose-100 text-rose-800"
+            },
+            {
+                week: "第15週",
+                topic: "數位理財工具與資安防護實作",
+                content: "講師示範行動銀行安全設定、雙重驗證與定期定額下單介面，學員反覆練習並確保數位操作安全。",
+                tags: ["literacy", "finance"],
+                badge: "資安與數位實作",
+                badgeClass: "bg-sky-100 text-sky-800"
+            },
+            {
+                week: "第16週",
+                topic: "投資心理韌性：遇見股災時的冷靜錦囊",
+                content: "設計專屬個人的「投資情緒急救包」與檢核清單，在市場大跌時依循理性步驟行動，避免恐慌殺低。",
+                tags: ["sel"],
+                badge: "社會情緒・韌性",
+                badgeClass: "bg-rose-100 text-rose-800"
+            },
+            {
+                week: "第17週",
+                topic: "成果展總彩排：我的全齡富足藍圖",
+                content: "彙整學期所學，完成個人財務安全與情緒管理計畫書，小組互評給予正向回饋與上台發表準備。",
+                tags: ["finance", "sel"],
+                badge: "整合規劃",
+                badgeClass: "bg-amber-100 text-amber-800"
+            },
+            {
+                week: "第18週",
+                topic: "期末成果展：世代共學理財防詐嘉年華",
+                content: "學員上台分享學習蛻變與防詐心法，並設攤展示自製防詐圖卡與理財藍圖，與社區民眾交流同樂。",
+                tags: ["community"],
+                badge: "期末成果展",
+                badgeClass: "bg-amber-200 text-amber-900",
+                isShowcase: true
+            }
+        ];
+
+        // 狀態管理
+        let currentCategory = 'all';
+        let currentSearch = '';
+        let currentViewMode = 'table'; // 'table' or 'card'
+        let isLargeFont = false;
+        let toastTimer = null;
+
+        // 初始化渲染
+        document.addEventListener('DOMContentLoaded', () => {
+            // 在手機小螢幕預設自動切換為卡片模式以獲得最佳體驗，桌面則預設表格模式
+            if (window.innerWidth < 640) {
+                setViewMode('card');
+            } else {
+                renderSyllabus();
+            }
+        });
+
+        // 切換字體大小（標準 / 大字體）
+        function toggleFontSize() {
+            isLargeFont = !isLargeFont;
+            const htmlEl = document.documentElement;
+            const labelEl = document.getElementById('fontToggleLabel');
+            const btnEl = document.getElementById('fontToggleBtn');
+
+            if (isLargeFont) {
+                htmlEl.classList.add('large-font');
+                labelEl.textContent = '恢復標準字體';
+                btnEl.classList.add('bg-brand-forest', 'text-white', 'border-brand-forest');
+                btnEl.classList.remove('bg-brand-sand', 'text-brand-forest');
+                showToast('已切換為「長輩友善大字體」模式');
+            } else {
+                htmlEl.classList.remove('large-font');
+                labelEl.textContent = '放大字體 (長輩友善)';
+                btnEl.classList.remove('bg-brand-forest', 'text-white', 'border-brand-forest');
+                btnEl.classList.add('bg-brand-sand', 'text-brand-forest');
+                showToast('已恢復為「標準字體」模式');
+            }
+        }
+
+        // 切換檢視模式（表格 / 卡片）
+        function setViewMode(mode) {
+            currentViewMode = mode;
+            const tableContainer = document.getElementById('tableViewContainer');
+            const cardContainer = document.getElementById('cardViewContainer');
+            const tableBtn = document.getElementById('viewTableBtn');
+            const cardBtn = document.getElementById('viewCardBtn');
+
+            if (mode === 'table') {
+                tableContainer.classList.remove('hidden');
+                cardContainer.classList.add('hidden');
+                tableBtn.className = 'inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-forest text-white shadow-sm transition cursor-pointer';
+                cardBtn.className = 'inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-stone-100 text-slate-700 hover:bg-stone-200 transition cursor-pointer';
+            } else {
+                tableContainer.classList.add('hidden');
+                cardContainer.classList.remove('hidden');
+                cardBtn.className = 'inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-brand-forest text-white shadow-sm transition cursor-pointer';
+                tableBtn.className = 'inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-sm font-bold bg-stone-100 text-slate-700 hover:bg-stone-200 transition cursor-pointer';
+            }
+            renderSyllabus();
+        }
+
+        // 主題分類篩選
+        function filterCategory(category) {
+            currentCategory = category;
+
+            // 更新按鈕樣式
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                const cat = btn.getAttribute('data-cat');
+                if (cat === category) {
+                    btn.classList.add('ring-2', 'ring-offset-1', 'ring-brand-amber', 'font-black');
+                    if (cat === 'all') {
+                        btn.classList.remove('bg-stone-100', 'text-slate-700');
+                        btn.classList.add('bg-brand-forest', 'text-white');
+                    }
+                } else {
+                    btn.classList.remove('ring-2', 'ring-offset-1', 'ring-brand-amber', 'font-black');
+                    if (cat === 'all') {
+                        btn.classList.remove('bg-brand-forest', 'text-white');
+                        btn.classList.add('bg-stone-100', 'text-slate-700');
+                    }
+                }
+            });
+
+            renderSyllabus();
+        }
+
+        // 搜尋處理
+        function handleSearch() {
+            const input = document.getElementById('searchInput');
+            const clearBtn = document.getElementById('clearSearchBtn');
+            currentSearch = input.value.trim().toLowerCase();
+
+            if (currentSearch.length > 0) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+            renderSyllabus();
+        }
+
+        function clearSearch() {
+            const input = document.getElementById('searchInput');
+            input.value = '';
+            currentSearch = '';
+            document.getElementById('clearSearchBtn').classList.add('hidden');
+            renderSyllabus();
+        }
+
+        function resetFilters() {
+            clearSearch();
+            filterCategory('all');
+        }
+
+        // 渲染課程大綱
+        function renderSyllabus() {
+            const tbody = document.getElementById('syllabusTableBody');
+            const cardContainer = document.getElementById('cardViewContainer');
+            const emptyState = document.getElementById('emptyState');
+            const tableContainer = document.getElementById('tableViewContainer');
+            const filterStatus = document.getElementById('filterStatus');
+
+            const filtered = syllabusData.filter(item => {
+                const matchCat = currentCategory === 'all' || item.tags.includes(currentCategory);
+                const matchSearch = !currentSearch ||
+                    item.week.toLowerCase().includes(currentSearch) ||
+                    item.topic.toLowerCase().includes(currentSearch) ||
+                    item.content.toLowerCase().includes(currentSearch);
+                return matchCat && matchSearch;
+            });
+
+            // 更新篩選狀態文字
+            if (currentCategory !== 'all' || currentSearch) {
+                filterStatus.classList.remove('hidden');
+                filterStatus.textContent = `目前顯示 ${filtered.length} 週課程（共 18 週）`;
+            } else {
+                filterStatus.classList.add('hidden');
+            }
+
+            if (filtered.length === 0) {
+                tableContainer.classList.add('hidden');
+                cardContainer.classList.add('hidden');
+                emptyState.classList.remove('hidden');
+                return;
+            } else {
+                emptyState.classList.add('hidden');
+                if (currentViewMode === 'table') {
+                    tableContainer.classList.remove('hidden');
+                    cardContainer.classList.add('hidden');
+                } else {
+                    tableContainer.classList.add('hidden');
+                    cardContainer.classList.remove('hidden');
+                }
+            }
+
+            // 渲染表格列
+            tbody.innerHTML = filtered.map(item => {
+                let rowBg = 'hover:bg-brand-cream/80 transition';
+                if (item.isCivicWeek) rowBg = 'bg-amber-50/70 hover:bg-amber-50 transition';
+                if (item.isShowcase) rowBg = 'bg-emerald-50/70 hover:bg-emerald-50 transition';
+                if (item.highlight) rowBg = 'bg-sky-50/60 hover:bg-sky-50 transition';
+
+                return `
+                    <tr class="${rowBg} print-break-inside-avoid">
+                        <td class="py-4 px-4 sm:px-6 font-black text-brand-forest whitespace-nowrap align-top">
+                            ${item.week}
+                        </td>
+                        <td class="py-4 px-4 sm:px-6 align-top">
+                            <div class="font-bold text-slate-900 text-base leading-snug">${item.topic}</div>
+                            <span class="inline-block mt-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold ${item.badgeClass} no-print">
+                                ${item.badge}
+                            </span>
+                        </td>
+                        <td class="py-4 px-4 sm:px-6 text-slate-700 text-base leading-relaxed align-top">
+                            ${item.content}
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+
+            // 渲染卡片
+            cardContainer.innerHTML = filtered.map(item => {
+                let cardBorder = 'border-stone-200 bg-white';
+                if (item.isCivicWeek) cardBorder = 'border-amber-300 bg-amber-50/60';
+                if (item.isShowcase) cardBorder = 'border-emerald-300 bg-emerald-50/60';
+                if (item.highlight) cardBorder = 'border-sky-300 bg-sky-50/50';
+
+                return `
+                    <article class="rounded-2xl p-5 border ${cardBorder} shadow-sm hover:shadow-md transition flex flex-col justify-between print-break-inside-avoid">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2.5">
+                                <span class="px-3 py-1 rounded-lg bg-brand-forest text-white font-black text-sm">
+                                    ${item.week}
+                                </span>
+                                <span class="px-2.5 py-1 rounded-full text-xs font-bold ${item.badgeClass}">
+                                    ${item.badge}
+                                </span>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900 leading-snug mb-2">
+                                ${item.topic}
+                            </h3>
+                            <p class="text-slate-700 text-base leading-relaxed">
+                                ${item.content}
+                            </p>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        // 一鍵複製完整課程文字稿（相容 iframe 環境）
+        function copyFullText() {
+            const textarea = document.getElementById('rawCourseText');
+            textarea.classList.remove('sr-only');
+            textarea.select();
+            textarea.setSelectionRange(0, 99999);
+
+            let success = false;
+            try {
+                success = document.execCommand('copy');
+            } catch (err) {
+                success = false;
+            }
+
+            textarea.classList.add('sr-only');
+            window.getSelection().removeAllRanges();
+
+            if (success) {
+                showToast('已成功複製完整課程文字稿，可直接貼上社大系統！');
+            } else {
+                showToast('複製失敗，請手動選取網頁文字複製。');
+            }
+        }
+
+        // 顯示友善提示訊息
+        function showToast(message) {
+            const toast = document.getElementById('toastNotification');
+            const toastMsg = document.getElementById('toastMessage');
+            toastMsg.textContent = message;
+
+            toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            if (toastTimer) clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+                toast.classList.remove('translate-y-0', 'opacity-100');
+            }, 3200);
+        }
+    </script>
+</body>
+</html>
